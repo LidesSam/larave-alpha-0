@@ -1,0 +1,14 @@
+-----------
+docker run -d --name postgres-avan -p 9450:5432 -e POSTGRES_DB=AVAN -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=132rockgas postgres:latest
+test with dbeaver or
+docker exec -it postgres-avan  psql -U postgres -d avan
+-----------
+
+Technologies
+jetstream for login
+spatie for permisions
+font awesome for fas icons
+*->composer require fortawesome/font-awesome
+
+laravel-mail fom mailing 
+*> php artisan vendor:publish --tag=laravel-mail
